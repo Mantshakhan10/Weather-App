@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Weather App — Live Weather Finder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header class="app-header">
+      <h1>Weather Finder</h1>
+      <p class="subtitle">Type any city and get current weather (OpenWeatherMap)</p>
+    </header>
+
+    <section class="search-card">
+      <form id="searchForm" class="search-form" autocomplete="off">
+        <input id="cityInput" name="city" type="text" placeholder="Enter city name (e.g., Delhi)" />
+        <button id="searchBtn" type="submit">Get Weather</button>
+      </form>
+
+      <div id="error" class="message error" aria-live="polite"></div>
+      <div id="loading" class="loading hidden" aria-hidden="true">
+        <div class="spinner"></div>
+        <span>Fetching weather...</span>
+      </div>
+    </section>
+
+    <section id="weatherCard" class="weather-card hidden" aria-live="polite">
+      <div class="card-header">
+        <div>
+          <h2 id="cityName">City, Country</h2>
+          <p id="dateText" class="date"></p>
+        </div>
+        <div class="icon-wrap">
+          <img id="weatherIcon" src="" alt="weather icon" />
+          <p id="condition" class="condition">Condition</p>
+        </div>
+      </div>
+
+      <div class="card-body">
+        <div class="temp">
+          <span id="tempValue">--</span><span class="deg">°C</span>
+        </div>
+
+        <div class="details-grid">
+          <div class="detail">
+            <label>Humidity</label>
+            <span id="humidity">-- %</span>
+          </div>
+          <div class="detail">
+            <label>Wind</label>
+            <span id="wind">-- m/s</span>
+          </div>
+          <div class="detail">
+            <label>Feels Like</label>
+            <span id="feels">-- °C</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="app-footer">
+      <p>Data from <a href="https://openweathermap.org/api" target="_blank" rel="noopener">OpenWeatherMap API</a></p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
