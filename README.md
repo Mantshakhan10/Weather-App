@@ -4,7 +4,7 @@
 
 <p><b>Real-Time Weather Updates with Dynamic Background UI</b></p>
 
-<a href="https://your-live-link.netlify.app">
+<a href="https://weather-wire.netlify.app/">
   <img src="https://img.shields.io/badge/Live-Demo-00C853?style=for-the-badge&logo=netlify&logoColor=white"/>
 </a>
 <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
