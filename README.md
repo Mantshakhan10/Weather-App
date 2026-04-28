@@ -53,8 +53,8 @@ Users can search any city and instantly get temperature, weather condition, humi
 <h2>📸 Screenshots</h2>
 
 <p align="center">
-  <img src="./screenshots/home.png" width="45%" alt="Home Screen"/>
-  <img src="./screenshots/result.png" width="45%" alt="Result Screen"/>
+  <img src="./screenshot/home.png" width="45%" alt="Home Screen"/>
+  <img src="./screenshot/Result.png" width="45%" alt="Result Screen"/>
 </p>
 
 <hr>
