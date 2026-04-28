@@ -42,19 +42,11 @@ Users can search any city and instantly get temperature, weather condition, humi
 
 <hr>
 
-<h2>🎥 Live Preview</h2>
-
-<p align="center">
-  <img src="./screenshots/demo.gif" width="600" alt="App Demo"/>
-</p>
-
-<hr>
-
 <h2>📸 Screenshots</h2>
 
 <p align="center">
-  <img src="./screenshot/home.png" width="45%" alt="Home Screen"/>
-  <img src="./screenshot/Result.png" width="45%" alt="Result Screen"/>
+  <img src="Screenshot/home.png" width="48%" alt="Home Screen"/>
+  <img src="Screenshot/Result.png" width="48%" alt="Result Screen"/>
 </p>
 
 <hr>
@@ -89,7 +81,6 @@ weather-app/
 └── screenshots/
        home.png
        result.png
-       demo.gif
 </pre>
 
 <hr>
@@ -97,7 +88,7 @@ weather-app/
 <h2>📦 Installation</h2>
 
 <pre>
-git clone https://github.com/YOUR_USERNAME/weather-app.git
+git clone https://github.com/Mantshakhan10/Weather-App.git
 </pre>
 
 <p>Open <b>index.html</b> in your browser and start using the app.</p>
