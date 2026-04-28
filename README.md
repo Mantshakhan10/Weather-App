@@ -1,55 +1,87 @@
-🌦 Weather App – Mini Project
+<div align="center">
 
-A simple and responsive weather application that fetches real-time weather details using the OpenWeatherMap API. Users can search for any city and view temperature, weather condition, and icon dynamically.
+<h1>🌦 Weather App</h1>
 
-🚀 Features
+<p><b>Real-Time Weather Updates with Dynamic Background UI</b></p>
 
-Search weather by city name
+<a href="https://your-live-link.netlify.app">
+  <img src="https://img.shields.io/badge/Live-Demo-00C853?style=for-the-badge&logo=netlify&logoColor=white"/>
+</a>
+<img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
 
-Displays:
+</div>
 
-City name
+<hr>
 
-Temperature (°C)
+<h2>📌 Overview</h2>
 
-Weather condition
+<p>
+A modern and responsive weather application that fetches real-time weather data using the OpenWeatherMap API. 
+Users can search any city and instantly get temperature, weather condition, humidity, and wind details.
+</p>
 
-Weather icon
+<p>
+✨ The standout feature is its <b>dynamic background</b> that changes based on temperature and weather conditions, making the experience visually engaging and interactive.
+</p>
 
-Handles errors for wrong city names
+<hr>
 
-Mobile-friendly responsive design
+<h2>🚀 Features</h2>
 
-Clean UI with smooth functionality
+<ul>
+  <li>🔍 Search weather by city name</li>
+  <li>🌡 Displays temperature in °C</li>
+  <li>🌤 Shows weather condition & icon</li>
+  <li>🌈 Dynamic background based on weather</li>
+  <li>⚠ Error handling for invalid city names</li>
+  <li>📱 Fully responsive design</li>
+  <li>⚡ Fast and smooth performance</li>
+</ul>
 
-Easy to customize
+<hr>
 
-🛠 Technologies Used
+<h2>🎥 Live Preview</h2>
 
-HTML5 – Structure & form
+<p align="center">
+  <img src="./screenshots/demo.gif" width="600" alt="App Demo"/>
+</p>
 
-CSS3 – Styling & responsiveness
+<hr>
 
-JavaScript (ES6+) – Fetch API, async/await, DOM updates
+<h2>📸 Screenshots</h2>
 
-OpenWeatherMap API – Live weather data
+<p align="center">
+  <img src="./screenshots/home.png" width="45%" alt="Home Screen"/>
+  <img src="./screenshots/result.png" width="45%" alt="Result Screen"/>
+</p>
 
-🌐 API Source
+<hr>
 
-Data fetched from:
-https://openweathermap.org/api
+<h2>🛠 Tech Stack</h2>
 
-Example endpoint used:
+<p>
+HTML5 • CSS3 • JavaScript (ES6+) • OpenWeatherMap API
+</p>
 
+<hr>
+
+<h2>🌐 API Used</h2>
+
+<p>
+<a href="https://openweathermap.org/api">OpenWeatherMap API</a>
+</p>
+
+<pre>
 https://api.openweathermap.org/data/2.5/weather?q={CITY_NAME}&appid={API_KEY}&units=metric
+</pre>
 
-📸 Screenshots
+<hr>
 
-🏠 Home Screen
+<h2>📁 Project Structure</h2>
 
-🌤 Weather Result Screen
-
-📁 Project Structure
+<pre>
 weather-app/
 │── index.html
 │── style.css
@@ -57,16 +89,23 @@ weather-app/
 └── screenshots/
        home.png
        result.png
+       demo.gif
+</pre>
 
-📦 Installation & Run
+<hr>
 
-Clone the repo:
+<h2>📦 Installation</h2>
 
+<pre>
 git clone https://github.com/YOUR_USERNAME/weather-app.git
+</pre>
 
+<p>Open <b>index.html</b> in your browser and start using the app.</p>
 
-Open the folder
+<hr>
 
-Double click index.html to run
+<div align="center">
 
-Enter a city name and check the weather
+<h3>✨ Made with ❤️ by Mantsha Khan</h3>
+
+</div>
